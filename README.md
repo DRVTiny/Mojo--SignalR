@@ -12,6 +12,9 @@ Log::Log4perl::KISS, you can find it here: https://github.com/DRVTiny/Log--Log4p
 
 ## Synopsis
 ```
+use Mojo::IOLoop;
+use Mojo::SignalR;
+
 my $sockSignalR;
 $sockSignalR = Mojo::SignalR->new(
   'provider_url'  => TRADING_PLATFORM_HTTP,
