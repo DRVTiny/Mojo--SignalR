@@ -1,6 +1,7 @@
 # Mojo::SignalR
 SignalR protocol implementation for Perl based on Mojo::Transaction::Websocket
-
+## Non-CPAN dependencies
+Log::Log4perl::KISS, you can find it here: https://github.com/DRVTiny/Log--Log4perl--KISS
 ## Synopsis
 ```
 my $sockSignalR;
