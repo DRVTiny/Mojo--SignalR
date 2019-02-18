@@ -1,4 +1,4 @@
-# Mojo--SignalR
+# Mojo::SignalR
 SignalR protocol implementation for Perl based on Mojo::Transaction::Websocket
 
 ## Synopsis
