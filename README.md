@@ -54,13 +54,13 @@ $sockSignalR = Mojo::SignalR->new(
 
 Mojo::IOLoop->is_running or Mojo::IOLoop->start;
 ```
-## LICENSE
+## License
 
 Copyright (C) Andrey A. Konovalov.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-## AUTHOR
+## Author
 
 Andrey A. Konovalov <drvtiny@gmail.com>
