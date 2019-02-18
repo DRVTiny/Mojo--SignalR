@@ -1,7 +1,15 @@
 # Mojo::SignalR
 SignalR protocol implementation for Perl based on Mojo::Transaction::Websocket
+
+## Features
+* Auto-reconnect on disconnect
+* Initial websocket connection timeout handled as fatal event (but if websocket disconnected after successful connection - reconnection attempts  will be taken)
+* Properly handling of packed (compressed, base64-coded) payload in messages
+* Very meticulous logging - this package can tell you about nearly every possible problem of other thing you may need to know
+
 ## Non-CPAN dependencies
 Log::Log4perl::KISS, you can find it here: https://github.com/DRVTiny/Log--Log4perl--KISS
+
 ## Synopsis
 ```
 my $sockSignalR;
